@@ -1,10 +1,4 @@
 body{
-  --tg-theme-bg-color: #282E33;
-  --tg-theme-text-color: #fff;
-  --tg-theme-hint-color: #828D94;
-  --tg-theme-link-color: #FF7E47;
-  --tg-theme-button-color: #FF7E47;
-  --tg-theme-button-text-color: #fff;
   background-color: var(--tg-theme-bg-color);
   font-family: 'Roboto', sans-serif;
   padding: 20px;
