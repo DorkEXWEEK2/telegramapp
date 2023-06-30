@@ -1,0 +1,68 @@
+body{
+  --tg-theme-bg-color: #282E33;
+  --tg-theme-text-color: #fff;
+  --tg-theme-hint-color: #828D94;
+  --tg-theme-link-color: #FF7E47;
+  --tg-theme-button-color: #FF7E47;
+  --tg-theme-button-text-color: #fff;
+  background-color: var(--tg-theme-bg-color);
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+#buy_button{
+  background-color: var(--tg-theme-button-color);
+  color: var(--tg-theme-button-text-color);
+  padding: 14px 40px;
+  border-radius: 4px;
+  border: 0;
+  font-size: 16px;
+  width: 100%;
+}
+img{
+  width: 80%;
+  border-radius: 20px;
+}
+.text{
+  text-align: left;
+  width: 100%;
+  font-size: 24px;
+  color: var(--tg-theme-text-color)
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+input {
+  padding: 12px 18px;
+  border: 2px solid;
+  border-radius: 10px;
+  background: none;
+  outline: none;
+  width: 100%;
+  border-color: var(--tg-theme-button-color);
+  color: var(--tg-theme-button-text-color);
+  font-size: 16px;
+  line-height: normal;
+}
+
+input::placeholder {
+  color: var(--tg-theme-hint-color)
+}
+
+span.text-label{
+  color: var(--tg-theme-text-color);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+div.input{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
