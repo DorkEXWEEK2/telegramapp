@@ -29,11 +29,12 @@ img{
     gap: 20px;
 }
 input {
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
     outline: none;
+    width: 90vw;
 }
 
 input::placeholder {
