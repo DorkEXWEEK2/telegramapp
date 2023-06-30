@@ -19,9 +19,6 @@ body{
   border: 0;
   width: 100%;
   cursor: pointer;
-}
-.buy_button a{
-  text-decoration: none;
   color: var(--tg-theme-button-text-color);
   font-size: 16px;
 }
