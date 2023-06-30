@@ -1,5 +1,4 @@
 import logging
-import os
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types.web_app_info import WebAppInfo
 
